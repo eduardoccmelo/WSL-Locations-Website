@@ -1,3 +1,3 @@
-# Eduardo´s personal website
+# Eduardo´s Hometown
 
-A website about myself 🏄🏻‍♂️
+A website about Belo Horizonte in Brazil
