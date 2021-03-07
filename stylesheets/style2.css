@@ -6,8 +6,7 @@ body {
     font-family: 'Lato', sans-serif;
   }
   
-  header,
-  footer {
+  header,footer {
     grid-column: 1 / span 2;
   }
   
@@ -37,7 +36,8 @@ body {
   .links{
     display: flex;
     justify-content: space-between;
-    padding: 0 180px;
+    align-items: center;
+    padding: 0 0px;
   }
 
   h3{
@@ -49,7 +49,7 @@ body {
   }
 
   #back{
-      text-align: right;
+      text-align: center;
       font-size: 0.9em;
       margin-right: 10px;
       margin-bottom: 10px;
@@ -59,10 +59,12 @@ body {
     text-decoration: none;
     color: black;
     padding: 2px 2px;
+    font-size: 1.1em;
+    font-weight: 450;
   }
 
   a:hover{
-      color: darkblue;
+      color: rgb(122, 122, 164);
   }
 
   p{
@@ -71,38 +73,68 @@ body {
   }
 
   button{
-      height: 25px;
+      height: 26px;
+      width: 300px;
   }
 
   h1{
       text-transform: uppercase;
       font-family: 'Bebas Neue', cursive;
       letter-spacing: 7px;
-  }
+      font-size: 2.5em;
+      text-align: center;
+      }
+      
 
   aside{
     border-top: black solid 1px;
     border-bottom: black solid 1px;
+    background-color: rgba(255,255,255,0.3);
   }
 
-  hr.style-seven {
-    overflow: visible; /* For IE */
-    height: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-}
-hr.style-seven:before { /* Not really supposed to work, but does */
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-}
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(197, 223, 244) 50%, rgb(111, 196, 254) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
 
   
   
