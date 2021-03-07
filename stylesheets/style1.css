@@ -13,9 +13,8 @@ h2{
 body {
     font-family: "Open Sans", sans-serif; 
     text-align: center;
-    padding: 35px 0px 35px 0; 
+    padding: 60px 0px 35px 0; 
     text-align: center;
-    background-image: linear-gradient(to bottom right, rgb(252, 217, 171), rgb(174, 127, 70) );
     color: rgb(36, 23, 7);
 }
 
@@ -58,6 +57,7 @@ footer{
 a{
     color: rgb(58, 43, 25);
     text-decoration: none;
+    transition: color .5s;
 }
 
 .footer{
@@ -80,12 +80,14 @@ a{
     display: flex;
     justify-content: space-around;
     font-size: 0.9em;
-    padding: 5px 8px;
+    padding: 0px 8px;
     position: fixed;
     top: 0;
     width: 98%;
     background-color: rgb(242, 250, 255);
     border-bottom: black 1px solid;
+    height: 30px;
+    align-items: center;
 }
 .links2 {
     display: flex;
@@ -94,7 +96,7 @@ a{
 }
 
 a:hover {
-    color: rgb(97, 85, 69);
+    color: rgb(133, 124, 112);
     opacity: 70%;
   }
 
@@ -108,7 +110,7 @@ margin:0;
 
 .bg {
 animation:slide 3s ease-in-out infinite alternate;
-background-image: linear-gradient(-60deg, rgb(224, 227, 187) 50%, rgb(242, 250, 255) 50%);
+background-image: linear-gradient(-60deg, rgb(228, 233, 198) 50%, rgb(249, 254, 217) 50%);
 bottom:0;
 left:-50%;
 opacity:.5;
@@ -146,4 +148,15 @@ section{
     bottom: 0;
     width: 97%
   }
+
+  #top{
+      margin-top: 35px;
+      margin-bottom: 35px;
+  }
+
+  hr{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  
 
