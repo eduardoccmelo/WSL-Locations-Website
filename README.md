@@ -1,3 +1,3 @@
-# Eduardo´s personal website
+# Eduardo´s Projects
 
-A website about myself 🏄🏻‍♂️
+A website Belo Horizonte and another one about the WSL Locations
