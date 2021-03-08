@@ -29,8 +29,7 @@ li {
 }
 
 img{
-    display: block;
-    margin: auto;
+    margin: 0 0;
     border: solid 3px black;
 }
 
@@ -61,6 +60,32 @@ a{
     transition: color .5s;
 }
 
+.pictures{
+    max-width: 350px;
+    width: 98%;
+}
+
+#picture-gastronomy{
+    width: 360px;
+    width: 98%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(242, 250, 255);
+    border-bottom: black 1px solid;
+    height: 30px;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 0;
+}
+
 .footer{
     display: flex;
     justify-content: space-around;
@@ -71,28 +96,6 @@ a{
     align-items: center;
 }
 
-.pictures{
-    max-width: 360px;
-}
-
-#picture-gastronomy{
-    width: 360px;
-}
-
-.links {
-    display: flex;
-    justify-content: space-around;
-    font-size: 0.9em;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgb(242, 250, 255);
-    border-bottom: black 1px solid;
-    height: 30px;
-    align-items: center;
-    width: 100%;
-    max-width: 500px;
-}
 .links2 {
     display: flex;
     justify-content:space-around;
@@ -110,7 +113,7 @@ body {
 }
 
 section{
-    margin: 20px 0;
+
     padding: 0 20px;
 }
 
