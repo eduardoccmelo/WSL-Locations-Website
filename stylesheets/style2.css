@@ -1,7 +1,4 @@
-body {
 
-}
-  
   header,footer {
     grid-column: 1 / span 2;
   }
