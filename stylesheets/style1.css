@@ -1,0 +1,140 @@
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0;
+    margin: 4px 4px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: "Open Sans", sans-serif; 
+    text-align: center;
+    padding: 60px 0px 35px 0; 
+    text-align: center;
+    color: rgb(36, 23, 7);
+    background-color: #d8d8c2;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.3;
+}
+
+li {
+    display: inline;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border: solid 3px black;
+}
+
+.contact{
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer{
+    font-size: 0.8em;
+}
+
+.back-top{
+    margin: 15px 15px;
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    color: rgb(58, 43, 25);
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(242, 250, 255);
+    border-top: black 1px solid;
+    margin: 0 0;
+    height: 30px;
+    align-items: center;
+}
+
+.pictures{
+    max-width: 360px;
+}
+
+#picture-gastronomy{
+    width: 360px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(242, 250, 255);
+    border-bottom: black 1px solid;
+    height: 30px;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+.links2 {
+    display: flex;
+    justify-content:space-around;
+    font-size: 0.9em;
+}
+
+a:hover {
+    color: rgb(133, 124, 112);
+    opacity: 70%;
+  }
+
+
+body {
+    margin: 0 0;
+}
+
+section{
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  #top{
+      margin-top: 35px;
+      margin-bottom: 35px;
+  }
+
+  hr{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  
+
+  html { 
+	max-width: 500px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+    height:100%;
+}

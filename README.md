@@ -1,3 +1,4 @@
-# Eduardo´s Hometown
+# Eduardo's Projects
 
-A website about Belo Horizonte in Brazil
+A website about Belo Horizonte and another one about the WSL Locations
+
