@@ -63,10 +63,12 @@ a{
 
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgb(242, 250, 255);
     border-top: black 1px solid;
-    padding: 10px 10px;
+    margin: 0 0;
+    height: 30px;
+    align-items: center;
 }
 
 .pictures{
@@ -81,14 +83,15 @@ a{
     display: flex;
     justify-content: space-around;
     font-size: 0.9em;
-    padding: 0px 8px;
     position: fixed;
     top: 0;
-    width: 98%;
+    width: 100%;
     background-color: rgb(242, 250, 255);
     border-bottom: black 1px solid;
     height: 30px;
     align-items: center;
+    width: 100%;
+    max-width: 500px;
 }
 .links2 {
     display: flex;
@@ -101,12 +104,9 @@ a:hover {
     opacity: 70%;
   }
 
-html {
-height:100%;
-}
 
 body {
-margin:0;
+    margin: 0 0;
 }
 
 section{
@@ -117,7 +117,8 @@ section{
 .sticky {
     position: fixed;
     bottom: 0;
-    width: 97%
+    width: 100%;
+    max-width: 500px;
   }
 
   #top{
@@ -131,3 +132,9 @@ section{
   }
   
 
+  html { 
+	max-width: 500px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+    height:100%;
+}
