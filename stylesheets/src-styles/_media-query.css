@@ -7,7 +7,7 @@
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 600px) {
   body {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 420px) {
   main {
     margin-left: 10px;
     margin-right: 10px;
