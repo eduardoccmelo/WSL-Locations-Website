@@ -1,4 +1,4 @@
-# Eduardo's Projects
+# WSL-Locations Project
 
-A website about Belo Horizonte and another one about the WSL Locations
+A website about some of the World Surf League Locations
 
