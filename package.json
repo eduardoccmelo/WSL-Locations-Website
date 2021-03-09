@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "a website about the wsl locations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoccmelo/website.git"
+  },
+  "author": "Eduardo Melo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardoccmelo/website/issues"
+  },
+  "homepage": "https://github.com/eduardoccmelo/website#readme",
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  }
+}
