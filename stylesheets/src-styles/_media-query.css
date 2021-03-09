@@ -15,13 +15,13 @@
   }
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 360px) {
   main {
     margin-left: 10px;
     margin-right: 10px;
   }
   button a {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   button {
     height: 26px;
