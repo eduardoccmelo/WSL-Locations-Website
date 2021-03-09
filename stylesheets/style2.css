@@ -62,12 +62,6 @@
 
   }
 
-  button{
-      height: 26px;
-      width: 200px;
-      padding: 0 0;
-  }
-
   h1{
       text-transform: uppercase;
       font-family: 'Bebas Neue', cursive;
@@ -133,13 +127,13 @@
     font-size: 1.2em
   }
 
-  @media screen and (min-width: 960px){
+  @media screen and (min-width: 930px){
   .links{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 0px;
-  }
+  };
 }
 
   @media screen and (min-width: 720px){
@@ -147,7 +141,7 @@
       display: grid;
       grid-template-columns: 60% 40%;
       grid-template-rows: 5w 30vw 5vw;
-    }
+    };
   }
 
   @media screen and (min-width: 360px){
@@ -155,7 +149,21 @@
       margin-left: 10px;
       margin-right: 10px;
     };
+    button a{
+      font-size: 1.2em
+    };
+    button{
+      height: 26px;
+      width: 200px;
+      padding: 0 0;
+    };
   }
+
+  button{
+    height: 26px;
+    width: 150px;
+    padding: 0 0;
+}
 
   footer{
     margin-left: 10px;
